@@ -1,0 +1,22 @@
+{
+  "name": "assy",
+  "version": "1.0.0",
+  "description": "Awesome Synth Sound, Yo",
+  "main": "index.js",
+  "repository": "git@github.com:patschreiber/assy.git",
+  "author": "Patrick Schreiber <2431707+patschreiber@users.noreply.github.com>",
+  "dependencies": {
+    "tone": "^14.7.77"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.4",
+    "@types/uuid": "^8.3.4",
+    "@typescript-eslint/eslint-plugin": "^5.40.1",
+    "eslint": "^8.26.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-jsdoc": "^39.3.23",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4",
+    "uuid": "^9.0.0"
+  }
+}
