@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig",
+  "compilerOptions": {
+    "outDir": "./dist/production",
+    "sourceMap": false,
+    "noErrorTruncation": false,
+    "traceResolution": false,
+    "listFiles": false,
+    "diagnostics": false,
+    "removeComments": true,
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig",
+  "compilerOptions": {
+    "outDir": "./dist/development",
+    "sourceMap": true,
+    "noErrorTruncation": true,
+    "traceResolution": true,
+    "listFiles": true,
+    "diagnostics": true,
+    "removeComments": false,
+  }
+}

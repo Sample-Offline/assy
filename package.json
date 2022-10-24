@@ -1,27 +1,45 @@
 {
   "name": "assy",
-  "version": "1.0.0",
+  "displayName": "Awesome Synth Sound, Yo",
+  "version": "0.0.2-1",
   "description": "Awesome Synth Sound, Yo",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "repository": "git@github.com:patschreiber/assy.git",
   "author": "Patrick Schreiber <2431707+patschreiber@users.noreply.github.com>",
+  "private": true,
+  "directories": {
+    "doc": "./docs"
+  },
   "dependencies": {
     "tone": "^14.7.77"
   },
   "devDependencies": {
+    "@types/ejs": "^3.1.1",
     "@types/node": "^18.11.4",
     "@types/uuid": "^8.3.4",
+    "@types/webpack": "^5.28.0",
     "@typescript-eslint/eslint-plugin": "^5.40.1",
+    "copy-webpack-plugin": "^11.0.0",
+    "ejs": "^3.1.8",
     "eslint": "^8.26.0",
     "eslint-plugin-html": "^7.1.0",
     "eslint-plugin-jsdoc": "^39.3.23",
+    "html-webpack-plugin": "^5.5.0",
+    "ts-loader": "^9.4.1",
     "ts-node": "^10.9.1",
+    "typedoc": "^0.23.18",
     "typescript": "^4.8.4",
-    "uuid": "^9.0.0"
+    "uuid": "^9.0.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
   },
   "scripts": {
-    "doc-build": "npx typedoc src/index.ts",
-    "build": "tsc --build --clean",
-    "build-dev": "tsc --build --dry"
-  }
+    "build": "./build/build-prod.sh",
+    "build-dev": "./build/build-dev.sh",
+    "build-prod": "yarn build",
+    "build-docs": "npx typedoc --entryPointStrategy expand ./src"
+  },
+  "contributors": [
+    "Patrick Schreiber <2431707+patschreiber@users.noreply.github.com>"
+  ]
 }
