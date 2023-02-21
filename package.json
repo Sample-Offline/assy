@@ -1,7 +1,7 @@
 {
   "name": "assy",
   "displayName": "Awesome Synth Sound, Yo",
-  "version": "1.11.1-0",
+  "version": "1.12.0",
   "description": "Awesome Synth Sound, Yo",
   "main": "./dist/index.js",
   "repository": "git@github.com:patschreiber/assy.git",
