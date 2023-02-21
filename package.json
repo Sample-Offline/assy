@@ -16,14 +16,14 @@
   "devDependencies": {
     "@types/ejs": "^3.1.1",
     "@types/node": "^18.11.4",
-    "@types/uuid": "^8.3.4",
+    "@types/uuid": "^9.0.0",
     "@types/webpack": "^5.28.0",
-    "@typescript-eslint/eslint-plugin": "^5.40.1",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
     "copy-webpack-plugin": "^11.0.0",
     "ejs": "^3.1.8",
     "eslint": "^8.26.0",
     "eslint-plugin-html": "^7.1.0",
-    "eslint-plugin-jsdoc": "^39.3.23",
+    "eslint-plugin-jsdoc": "^40.0.0",
     "html-webpack-plugin": "^5.5.0",
     "ts-loader": "^9.4.1",
     "ts-node": "^10.9.1",
@@ -31,13 +31,14 @@
     "typescript": "^4.8.4",
     "uuid": "^9.0.0",
     "webpack": "^5.74.0",
-    "webpack-cli": "^4.10.0"
+    "webpack-cli": "^5.0.1"
   },
   "scripts": {
     "build": "./build/build-prod.sh",
     "build-dev": "./build/build-dev.sh",
     "build-prod": "yarn build",
-    "build-docs": "npx typedoc --entryPointStrategy expand ./src"
+    "build-docs": "npx typedoc --entryPointStrategy expand ./src",
+    "upgradable": "yarn outdated && yarn upgrade-interactive"
   },
   "contributors": [
     "Patrick Schreiber <2431707+patschreiber@users.noreply.github.com>"
