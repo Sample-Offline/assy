@@ -1,13 +1,14 @@
 {
   "extends": "./tsconfig",
   "compilerOptions": {
-    "outDir": "./dist/production",
-    "sourceMap": true,
-    "noErrorTruncation": false,
-    "traceResolution": false,
-    "listFiles": false,
-    "diagnostics": true,
-    "removeComments": true,
+    "outDir": "./dist/production",                    /* Specify an output folder for all emitted files. */
+    "outFile": "./dist/production/assy.js",           /* Specify a file that bundles all outputs into one JavaScript file. If 'declaration' is true, also designates a file that bundles all .d.ts output. */
+    "sourceMap": true,                                /* Create source map files for emitted JavaScript files. */
+    "noErrorTruncation": false,                       /* Disable truncating types in error messages. */
+    "traceResolution": true,                          /* Enable tracing of the name resolution process. Requires TypeScript version 2.0 or later. */
+    "listFiles": false,                               /* Print all of the files read during the compilation. */
+    "diagnostics": true,                              /* Output compiler performance information after building. */
+    "removeComments": true,                           /* Disable emitting comments. */
     "stripInternal": true,                            /* Disable emitting declarations that have '@internal' in their JSDoc comments. */
   }
 }
