@@ -1,9 +1,8 @@
 {
   "name": "assy",
   "displayName": "Awesome Synth Sound, Yo",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "Awesome Synth Sound, Yo",
-  "type": "module",
   "main": "./dist/index.js",
   "repository": "git@github.com:patschreiber/assy.git",
   "author": "Patrick Schreiber <2431707+patschreiber@users.noreply.github.com>",
