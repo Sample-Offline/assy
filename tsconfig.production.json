@@ -2,11 +2,12 @@
   "extends": "./tsconfig",
   "compilerOptions": {
     "outDir": "./dist/production",
-    "sourceMap": false,
+    "sourceMap": true,
     "noErrorTruncation": false,
     "traceResolution": false,
     "listFiles": false,
-    "diagnostics": false,
+    "diagnostics": true,
     "removeComments": true,
+    "stripInternal": true,                            /* Disable emitting declarations that have '@internal' in their JSDoc comments. */
   }
 }
